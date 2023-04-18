@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url("Lauren_2yrsOld.jpg");
+    background-size: auto;
+    margin: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    background-color: rgb(24, 216, 98);
+
+    color: rgb(5, 5, 5);
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContainer * {
+    margin-right: 18px;
+    background-color: cadetblue;
+}
+
+a:active {
+    text-decoration:blueviolet ;
+    color: red;
+}
+
+
+
+a:link {
+   color: black;
+   background-color: cornflowerblue;
+}
+
+a:visited {
+    background-color: chartreuse;
+    color: rgb(6, 30, 136);
+}
+
+a:hover {
+    text-decoration: dotted rgb(122, 4, 4);
+    
+    color: black;
+}
+
+.activitiesHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities {
+    border: 5px solid rgb(25, 218, 105);
+    border-radius: 12px;
+    padding: 0 10px 5px 10px;
+    margin: 10px;
+}
