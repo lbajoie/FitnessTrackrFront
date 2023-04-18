@@ -1,1 +1,1 @@
-export const API = 'http://fitnesstrac-kr.herokuapp.com'
+export const API = 'https://fitnesstrac-kr.herokuapp.com/api'
